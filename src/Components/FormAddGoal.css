@@ -1,0 +1,45 @@
+.form-add-goal {
+    border-radius: 12px;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px 0;
+}
+
+.form-add-goal__title{
+    display: flex;
+}
+
+.form-add-goal__title h4{
+    margin: 0;
+}
+
+.form-add-goal__input, .form-add-goal__btn {
+    width: 100%;
+}
+
+.form-add-goal__input input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #900;
+    outline: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.form-add-goal__btn button{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #900;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 0;
+    border-radius: 30px;
+}

@@ -1,0 +1,39 @@
+.goal-item {
+    background-color: rgb(0, 22, 63);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 50px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goal-item div img:nth-child(1) {
+    width: 30px;
+    cursor: pointer;
+}
+
+.goal-item div img:nth-child(2) {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.goal-item span img {
+    width: 40px;
+}
+
+.goal-item > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.goal-item > span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
